@@ -1,0 +1,22 @@
+/* .NotLoggedIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.NotLoggedIn-image{
+    background-image: url("../assets/login-3187888_640.jpg");
+    margin: 20px auto;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    /* float:left;     */
+}
+
+.NotLoggedIn-background{
+    background-color: rgb(205, 205, 238);
+}
+.NotLoggedIn p {
+    margin-top: 30px;
+    font-size: 1.2em;
+}

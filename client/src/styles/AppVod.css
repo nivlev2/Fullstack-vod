@@ -1,0 +1,59 @@
+#popupWrapper{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+#popup{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  max-width:300px ;
+  margin:10% auto;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
+  display: block;
+}
+#popupClose{
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+}
+.shadow1 {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.ListImage{
+  height: 190px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  float:left;
+  margin:10px
+}
+.ListImage-favorites{
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  float:left;
+  margin:10px
+}
+@media (max-width:800px){
+  .ListImage-favorites{
+    height: 200px;
+    width: 200px;
+  
+  }
+}
+/* Favorites */
+/* .Favorites-background{
+  background-color:rgb(219, 219, 219);
+} */

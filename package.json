@@ -1,0 +1,25 @@
+{
+  "name": "VodServer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    
+    "build":"cd client && npm run build",
+    "install-client":"cd client && npm install",
+    "heroku-postbuild":"npm run install-client && npm run build",
+    "start": "node app",
+    "client":"cd client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "heroku": "^7.54.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  }
+}
